@@ -9,9 +9,9 @@ main proc
     mov ax,@data
     mov ds,ax
     
-    mov al,12
+    mov al,26
     mov ah,0
-    mov bl,4
+    mov bl,7
     div bl
     
     mov cl,al
